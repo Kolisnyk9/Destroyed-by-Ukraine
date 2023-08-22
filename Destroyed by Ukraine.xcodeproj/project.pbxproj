@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9074FCD42A955BC60044A2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD32A955BC60044A2A0 /* AppDelegate.swift */; };
 		9074FCD62A955BC60044A2A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD52A955BC60044A2A0 /* SceneDelegate.swift */; };
-		9074FCD82A955BC60044A2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD72A955BC60044A2A0 /* ViewController.swift */; };
-		9074FCDB2A955BC60044A2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCD92A955BC60044A2A0 /* Main.storyboard */; };
+		9074FCD82A955BC60044A2A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD72A955BC60044A2A0 /* MainViewController.swift */; };
+		9074FCDB2A955BC60044A2A0 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCD92A955BC60044A2A0 /* MainViewController.storyboard */; };
 		9074FCDD2A955BC60044A2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCDC2A955BC60044A2A0 /* Assets.xcassets */; };
 		9074FCE02A955BC60044A2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCDE2A955BC60044A2A0 /* LaunchScreen.storyboard */; };
+		9074FCEF2A955C620044A2A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCE82A955C620044A2A0 /* README.md */; };
+		9074FCF02A955C620044A2A0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCE92A955C620044A2A0 /* LICENSE */; };
+		9074FCF12A955C620044A2A0 /* russia_losses_equipment_correction.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCEB2A955C620044A2A0 /* russia_losses_equipment_correction.json */; };
+		9074FCF22A955C620044A2A0 /* russia_losses_equipment_oryx.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCEC2A955C620044A2A0 /* russia_losses_equipment_oryx.json */; };
+		9074FCF32A955C620044A2A0 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCED2A955C620044A2A0 /* russia_losses_personnel.json */; };
+		9074FCF42A955C620044A2A0 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCEE2A955C620044A2A0 /* russia_losses_equipment.json */; };
+		9074FCF62A955CC10044A2A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCF52A955CC10044A2A0 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9074FCD02A955BC60044A2A0 /* Destroyed by Ukraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destroyed by Ukraine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9074FCD32A955BC60044A2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9074FCD52A955BC60044A2A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9074FCD72A955BC60044A2A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9074FCDA2A955BC60044A2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9074FCD72A955BC60044A2A0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9074FCDA2A955BC60044A2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		9074FCDC2A955BC60044A2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9074FCDF2A955BC60044A2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9074FCE12A955BC60044A2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9074FCE82A955C620044A2A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9074FCE92A955C620044A2A0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9074FCEB2A955C620044A2A0 /* russia_losses_equipment_correction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment_correction.json; sourceTree = "<group>"; };
+		9074FCEC2A955C620044A2A0 /* russia_losses_equipment_oryx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment_oryx.json; sourceTree = "<group>"; };
+		9074FCED2A955C620044A2A0 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
+		9074FCEE2A955C620044A2A0 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
+		9074FCF52A955CC10044A2A0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,78 @@
 		9074FCD22A955BC60044A2A0 /* Destroyed by Ukraine */ = {
 			isa = PBXGroup;
 			children = (
+				9074FCFB2A9562560044A2A0 /* Extension */,
+				9074FCE72A955C440044A2A0 /* Resource */,
+				9074FCDE2A955BC60044A2A0 /* LaunchScreen.storyboard */,
 				9074FCD32A955BC60044A2A0 /* AppDelegate.swift */,
 				9074FCD52A955BC60044A2A0 /* SceneDelegate.swift */,
-				9074FCD72A955BC60044A2A0 /* ViewController.swift */,
-				9074FCD92A955BC60044A2A0 /* Main.storyboard */,
-				9074FCDC2A955BC60044A2A0 /* Assets.xcassets */,
-				9074FCDE2A955BC60044A2A0 /* LaunchScreen.storyboard */,
-				9074FCE12A955BC60044A2A0 /* Info.plist */,
+				9074FCF72A9561F80044A2A0 /* MainModule */,
 			);
 			path = "Destroyed by Ukraine";
+			sourceTree = "<group>";
+		};
+		9074FCE72A955C440044A2A0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9074FCEA2A955C620044A2A0 /* JSON */,
+				9074FCDC2A955BC60044A2A0 /* Assets.xcassets */,
+				9074FCE12A955BC60044A2A0 /* Info.plist */,
+				9074FCE92A955C620044A2A0 /* LICENSE */,
+				9074FCE82A955C620044A2A0 /* README.md */,
+				9074FCF52A955CC10044A2A0 /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9074FCEA2A955C620044A2A0 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9074FCEB2A955C620044A2A0 /* russia_losses_equipment_correction.json */,
+				9074FCEC2A955C620044A2A0 /* russia_losses_equipment_oryx.json */,
+				9074FCED2A955C620044A2A0 /* russia_losses_personnel.json */,
+				9074FCEE2A955C620044A2A0 /* russia_losses_equipment.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		9074FCF72A9561F80044A2A0 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				9074FCFA2A95622D0044A2A0 /* Model */,
+				9074FCF92A9562280044A2A0 /* View */,
+				9074FCF82A95621A0044A2A0 /* ViewModel */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		9074FCF82A95621A0044A2A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9074FCF92A9562280044A2A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9074FCD72A955BC60044A2A0 /* MainViewController.swift */,
+				9074FCD92A955BC60044A2A0 /* MainViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9074FCFA2A95622D0044A2A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9074FCFB2A9562560044A2A0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +202,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9074FCF32A955C620044A2A0 /* russia_losses_personnel.json in Resources */,
+				9074FCF12A955C620044A2A0 /* russia_losses_equipment_correction.json in Resources */,
 				9074FCE02A955BC60044A2A0 /* LaunchScreen.storyboard in Resources */,
+				9074FCF42A955C620044A2A0 /* russia_losses_equipment.json in Resources */,
+				9074FCF22A955C620044A2A0 /* russia_losses_equipment_oryx.json in Resources */,
+				9074FCF62A955CC10044A2A0 /* Localizable.strings in Resources */,
 				9074FCDD2A955BC60044A2A0 /* Assets.xcassets in Resources */,
-				9074FCDB2A955BC60044A2A0 /* Main.storyboard in Resources */,
+				9074FCEF2A955C620044A2A0 /* README.md in Resources */,
+				9074FCDB2A955BC60044A2A0 /* MainViewController.storyboard in Resources */,
+				9074FCF02A955C620044A2A0 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9074FCD82A955BC60044A2A0 /* ViewController.swift in Sources */,
+				9074FCD82A955BC60044A2A0 /* MainViewController.swift in Sources */,
 				9074FCD42A955BC60044A2A0 /* AppDelegate.swift in Sources */,
 				9074FCD62A955BC60044A2A0 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,12 +231,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9074FCD92A955BC60044A2A0 /* Main.storyboard */ = {
+		9074FCD92A955BC60044A2A0 /* MainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9074FCDA2A955BC60044A2A0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		9074FCDE2A955BC60044A2A0 /* LaunchScreen.storyboard */ = {
