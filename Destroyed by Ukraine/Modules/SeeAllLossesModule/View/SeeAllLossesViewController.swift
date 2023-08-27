@@ -11,7 +11,7 @@ class SeeAllLossesViewController: UIViewController {
 
     @IBOutlet private weak var tableView: UITableView!
     
-    private var viewModel: SeeAllLossesViewModel?
+    private var viewModel: SeeAllLossesViewModelProtocol?
     weak var delegate: CategoryInfoDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +53,7 @@ extension SeeAllLossesViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let model = viewModel?.getModel()
+        let model = viewModel?.didSelectRow(at: indexPath.row)
         delegate?.didSelect(with: model)
     }
 }

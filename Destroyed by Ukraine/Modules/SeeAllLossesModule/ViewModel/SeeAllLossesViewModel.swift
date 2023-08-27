@@ -7,7 +7,13 @@
 
 import Foundation
 
-final class SeeAllLossesViewModel {
+protocol SeeAllLossesViewModelProtocol {
+    func numberOfRows() -> Int
+    func getModel() -> ResponseInfoType
+    func didSelectRow(at row: Int) -> ResponseInfoType?
+}
+
+final class SeeAllLossesViewModel: SeeAllLossesViewModelProtocol {
     private let responseInfoType: ResponseInfoType
     
     init(_ model: ResponseInfoType) {

@@ -7,7 +7,12 @@
 
 import UIKit
 
-final class DetailViewModel {
+protocol DetailViewModelProtocol {
+    func getDetailInfo(completion: (String, String) -> Void)
+    func getImage() -> UIImage? 
+}
+
+final class DetailViewModel: DetailViewModelProtocol {
     private let responseInfoType: ResponseInfoType?
     
     init(_ model: ResponseInfoType) {

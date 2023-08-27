@@ -13,7 +13,7 @@ class DetailViewController: UIViewController {
     @IBOutlet private weak var infoStackView: UIStackView!
     @IBOutlet private weak var topImageView: UIImageView!
     
-    var viewModel: DetailViewModel?
+    var viewModel: DetailViewModelProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()

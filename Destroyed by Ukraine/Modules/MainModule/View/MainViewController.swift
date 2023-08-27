@@ -10,7 +10,7 @@ import UIKit
 class MainViewController: UIViewController {
 
     @IBOutlet private weak var tableView: UITableView!
-    lazy var viewModel: MainViewModel = {
+    lazy var viewModel: MainViewModelProtocol = {
         return MainViewModel()
     }()
     
