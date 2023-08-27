@@ -1,6 +1,4 @@
 # 2022-Ukraine-Russia-War-Dataset
-![Video](https://drive.google.com/file/d/1vSATGiGL15QmWdx3snw-n7bV3sNh8avc/preview)
-
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
 
 <img src="https://github.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset/blob/main/images/dataset_2022_war_ukraine_russia.png" alt="drawing" width="1200"/>
