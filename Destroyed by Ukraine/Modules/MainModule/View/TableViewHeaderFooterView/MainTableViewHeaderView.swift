@@ -8,7 +8,7 @@
 import UIKit
 
 protocol MainTableViewHeaderDelegate: AnyObject {
-    func didPressSeeAll()
+    func didPressSeeAll(with model: ResponseInfoType)
 }
 
 class MainTableViewHeaderView: UITableViewHeaderFooterView {
@@ -34,10 +34,13 @@ class MainTableViewHeaderView: UITableViewHeaderFooterView {
         return button
     }()
     
+    private var model: ResponseInfoType?
+    
     weak var delegate: MainTableViewHeaderDelegate?
     
     @objc private func seeAllButtonTapped() {
-        delegate?.didPressSeeAll()
+        guard let model else { return }
+        delegate?.didPressSeeAll(with: model)
     }
     
     
@@ -73,7 +76,8 @@ class MainTableViewHeaderView: UITableViewHeaderFooterView {
     }
     
     // You can also create functions to configure the header view with data
-    func configure(withTitle title: String) {
-        titleLabel.text = title
+    func configure(withTitle model: ResponseInfoType) {
+        self.model = model
+        titleLabel.text = model.title
     }
 }

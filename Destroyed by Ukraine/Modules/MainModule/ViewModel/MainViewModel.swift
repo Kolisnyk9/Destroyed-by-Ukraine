@@ -37,7 +37,6 @@ final class MainViewModel: MainViewModelProtocol {
                 personnelModel = personnelData
                 if !personnelModel.isEmpty {
                     responseInfo.append(.personnelModel(model: personnelData))
-                    print("1")
                 }
             } catch {
                 print("Error: \(error)")

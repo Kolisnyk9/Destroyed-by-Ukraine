@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol CategoryTableViewCellDelegate: AnyObject {
+protocol CategoryInfoDelegate: AnyObject {
     func didSelect(with model: ResponseInfoType?)
 }
 
@@ -16,7 +16,7 @@ class CategoryTableViewCell: UITableViewCell {
     
     @IBOutlet private weak var collectionView: UICollectionView!
     
-    weak var delegate: CategoryTableViewCellDelegate?
+    weak var delegate: CategoryInfoDelegate?
     private var viewModel: CategoryCellViewModel?
     
     override func awakeFromNib() {

@@ -50,7 +50,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: MainTableViewHeaderView.reusedIdentifier) as! MainTableViewHeaderView
-        headerView.configure(withTitle: viewModel.getResponseInfoType(section).title)
+        headerView.configure(withTitle: viewModel.getResponseInfoType(section))
+        headerView.delegate = self
         return headerView
 
     }
@@ -60,8 +61,16 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+extension MainViewController: MainTableViewHeaderDelegate {
+    func didPressSeeAll(with model: ResponseInfoType) {
+        let vc = SeeAllLossesViewController.instantiate()
+        vc.transferData(model)
+        vc.delegate = self
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+}
 
-extension MainViewController: CategoryTableViewCellDelegate {
+extension MainViewController: CategoryInfoDelegate {
     func didSelect(with model: ResponseInfoType?) {
         guard let model else { return }
         let vc = DetailViewController.instantiate()

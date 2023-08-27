@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9013CBFE2A9BD92600BF426B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013CBFD2A9BD92600BF426B /* UIImage+Extension.swift */; };
+		9013CC022A9BDC3B00BF426B /* SeeAllLossesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013CC002A9BDC3B00BF426B /* SeeAllLossesViewController.swift */; };
+		9013CC052A9BDC4F00BF426B /* SeeAllLossesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013CC042A9BDC4F00BF426B /* SeeAllLossesViewController.storyboard */; };
+		9013CC0A2A9BDCCD00BF426B /* SeeAllLossesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013CC092A9BDCCD00BF426B /* SeeAllLossesViewModel.swift */; };
+		9013CC0C2A9BDD6500BF426B /* SeeAllLossesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013CC0B2A9BDD6500BF426B /* SeeAllLossesTableViewCell.swift */; };
+		9013CC0E2A9BDD6C00BF426B /* SeeAllLossesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9013CC0D2A9BDD6C00BF426B /* SeeAllLossesTableViewCell.xib */; };
 		903A22A62A9AB05A008A378C /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22A52A9AB05A008A378C /* CategoryTableViewCell.swift */; };
 		903A22A82A9AB069008A378C /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903A22A72A9AB069008A378C /* CategoryTableViewCell.xib */; };
 		903A22AA2A9B4A3C008A378C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22A92A9B4A3C008A378C /* Date+Extension.swift */; };
@@ -45,6 +50,11 @@
 
 /* Begin PBXFileReference section */
 		9013CBFD2A9BD92600BF426B /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9013CC002A9BDC3B00BF426B /* SeeAllLossesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllLossesViewController.swift; sourceTree = "<group>"; };
+		9013CC042A9BDC4F00BF426B /* SeeAllLossesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeeAllLossesViewController.storyboard; sourceTree = "<group>"; };
+		9013CC092A9BDCCD00BF426B /* SeeAllLossesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllLossesViewModel.swift; sourceTree = "<group>"; };
+		9013CC0B2A9BDD6500BF426B /* SeeAllLossesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllLossesTableViewCell.swift; sourceTree = "<group>"; };
+		9013CC0D2A9BDD6C00BF426B /* SeeAllLossesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeeAllLossesTableViewCell.xib; sourceTree = "<group>"; };
 		903A22A52A9AB05A008A378C /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		903A22A72A9AB069008A378C /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 		903A22A92A9B4A3C008A378C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
@@ -93,6 +103,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9013CBFF2A9BDBE700BF426B /* SeeAllLossesModule */ = {
+			isa = PBXGroup;
+			children = (
+				9013CC072A9BDCB500BF426B /* View */,
+				9013CC062A9BDCB000BF426B /* ViewModel */,
+			);
+			path = SeeAllLossesModule;
+			sourceTree = "<group>";
+		};
+		9013CC062A9BDCB000BF426B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9013CC092A9BDCCD00BF426B /* SeeAllLossesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9013CC072A9BDCB500BF426B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9013CC0F2A9BDECE00BF426B /* TableViewCell */,
+				9013CC002A9BDC3B00BF426B /* SeeAllLossesViewController.swift */,
+				9013CC042A9BDC4F00BF426B /* SeeAllLossesViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9013CC0F2A9BDECE00BF426B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9013CC0B2A9BDD6500BF426B /* SeeAllLossesTableViewCell.swift */,
+				9013CC0D2A9BDD6C00BF426B /* SeeAllLossesTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		903A22A42A9AB024008A378C /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +319,7 @@
 		90FA409C2A9BA29C00454110 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9013CBFF2A9BDBE700BF426B /* SeeAllLossesModule */,
 				90FA40982A9BA27100454110 /* DetailModule */,
 				9074FCF72A9561F80044A2A0 /* MainModule */,
 			);
@@ -337,6 +384,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9013CC052A9BDC4F00BF426B /* SeeAllLossesViewController.storyboard in Resources */,
+				9013CC0E2A9BDD6C00BF426B /* SeeAllLossesTableViewCell.xib in Resources */,
 				9074FCF32A955C620044A2A0 /* russia_losses_personnel.json in Resources */,
 				9074FCF12A955C620044A2A0 /* russia_losses_equipment_correction.json in Resources */,
 				9074FCE02A955BC60044A2A0 /* LaunchScreen.storyboard in Resources */,
@@ -362,8 +411,10 @@
 			files = (
 				90BC6C192A96C3BD00935B96 /* EquipmentModel.swift in Sources */,
 				903A22AA2A9B4A3C008A378C /* Date+Extension.swift in Sources */,
+				9013CC022A9BDC3B00BF426B /* SeeAllLossesViewController.swift in Sources */,
 				90BC6C172A96C38B00935B96 /* EquipmentOryxModel.swift in Sources */,
 				903A22AC2A9B6522008A378C /* UIColor+Extension.swift in Sources */,
+				9013CC0A2A9BDCCD00BF426B /* SeeAllLossesViewModel.swift in Sources */,
 				903A22B72A9B777A008A378C /* MainTableViewHeaderView.swift in Sources */,
 				903A22B12A9B73E0008A378C /* String+Extension.swift in Sources */,
 				9074FCD82A955BC60044A2A0 /* MainViewController.swift in Sources */,
@@ -378,6 +429,7 @@
 				9013CBFE2A9BD92600BF426B /* UIImage+Extension.swift in Sources */,
 				9074FD022A9567370044A2A0 /* PersonnelCollectionViewCell.swift in Sources */,
 				903A22AE2A9B717D008A378C /* CategoryCellViewModel.swift in Sources */,
+				9013CC0C2A9BDD6500BF426B /* SeeAllLossesTableViewCell.swift in Sources */,
 				903A22B42A9B7435008A378C /* Helpers.swift in Sources */,
 				90FA409E2A9BA2B100454110 /* DetailViewController.swift in Sources */,
 				90BC6C112A96BEA700935B96 /* MainViewModel.swift in Sources */,
@@ -533,8 +585,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainViewController;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,8 +613,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainViewController;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
