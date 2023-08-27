@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903A22A62A9AB05A008A378C /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22A52A9AB05A008A378C /* CategoryTableViewCell.swift */; };
+		903A22A82A9AB069008A378C /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903A22A72A9AB069008A378C /* CategoryTableViewCell.xib */; };
+		903A22AA2A9B4A3C008A378C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22A92A9B4A3C008A378C /* Date+Extension.swift */; };
+		903A22AC2A9B6522008A378C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22AB2A9B6522008A378C /* UIColor+Extension.swift */; };
+		903A22AE2A9B717D008A378C /* CategoryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22AD2A9B717D008A378C /* CategoryCellViewModel.swift */; };
+		903A22B12A9B73E0008A378C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22B02A9B73E0008A378C /* String+Extension.swift */; };
+		903A22B42A9B7435008A378C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22B32A9B7435008A378C /* Helpers.swift */; };
+		903A22B72A9B777A008A378C /* MainTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A22B62A9B777A008A378C /* MainTableViewHeaderView.swift */; };
 		9074FCD42A955BC60044A2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD32A955BC60044A2A0 /* AppDelegate.swift */; };
 		9074FCD62A955BC60044A2A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD52A955BC60044A2A0 /* SceneDelegate.swift */; };
 		9074FCD82A955BC60044A2A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FCD72A955BC60044A2A0 /* MainViewController.swift */; };
@@ -20,9 +28,25 @@
 		9074FCF32A955C620044A2A0 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCED2A955C620044A2A0 /* russia_losses_personnel.json */; };
 		9074FCF42A955C620044A2A0 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCEE2A955C620044A2A0 /* russia_losses_equipment.json */; };
 		9074FCF62A955CC10044A2A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9074FCF52A955CC10044A2A0 /* Localizable.strings */; };
+		9074FD022A9567370044A2A0 /* PersonnelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074FD012A9567370044A2A0 /* PersonnelCollectionViewCell.swift */; };
+		90BC6C0F2A96BE0E00935B96 /* PersonnelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC6C0E2A96BE0E00935B96 /* PersonnelModel.swift */; };
+		90BC6C112A96BEA700935B96 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC6C102A96BEA700935B96 /* MainViewModel.swift */; };
+		90BC6C132A96C1BB00935B96 /* PersonnelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BC6C122A96C1BB00935B96 /* PersonnelCollectionViewCell.xib */; };
+		90BC6C152A96C36400935B96 /* EquipmentCorrectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC6C142A96C36300935B96 /* EquipmentCorrectionModel.swift */; };
+		90BC6C172A96C38B00935B96 /* EquipmentOryxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC6C162A96C38B00935B96 /* EquipmentOryxModel.swift */; };
+		90BC6C192A96C3BD00935B96 /* EquipmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC6C182A96C3BD00935B96 /* EquipmentModel.swift */; };
+		90FA40972A9B9D0100454110 /* ResponseInfoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA40962A9B9D0100454110 /* ResponseInfoType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		903A22A52A9AB05A008A378C /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		903A22A72A9AB069008A378C /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		903A22A92A9B4A3C008A378C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		903A22AB2A9B6522008A378C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		903A22AD2A9B717D008A378C /* CategoryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellViewModel.swift; sourceTree = "<group>"; };
+		903A22B02A9B73E0008A378C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		903A22B32A9B7435008A378C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		903A22B62A9B777A008A378C /* MainTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewHeaderView.swift; sourceTree = "<group>"; };
 		9074FCD02A955BC60044A2A0 /* Destroyed by Ukraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destroyed by Ukraine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9074FCD32A955BC60044A2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9074FCD52A955BC60044A2A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +62,14 @@
 		9074FCED2A955C620044A2A0 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
 		9074FCEE2A955C620044A2A0 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
 		9074FCF52A955CC10044A2A0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9074FD012A9567370044A2A0 /* PersonnelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelCollectionViewCell.swift; sourceTree = "<group>"; };
+		90BC6C0E2A96BE0E00935B96 /* PersonnelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelModel.swift; sourceTree = "<group>"; };
+		90BC6C102A96BEA700935B96 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		90BC6C122A96C1BB00935B96 /* PersonnelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonnelCollectionViewCell.xib; sourceTree = "<group>"; };
+		90BC6C142A96C36300935B96 /* EquipmentCorrectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentCorrectionModel.swift; sourceTree = "<group>"; };
+		90BC6C162A96C38B00935B96 /* EquipmentOryxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentOryxModel.swift; sourceTree = "<group>"; };
+		90BC6C182A96C3BD00935B96 /* EquipmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentModel.swift; sourceTree = "<group>"; };
+		90FA40962A9B9D0100454110 /* ResponseInfoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseInfoType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +83,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		903A22A42A9AB024008A378C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				903A22A52A9AB05A008A378C /* CategoryTableViewCell.swift */,
+				903A22A72A9AB069008A378C /* CategoryTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		903A22B22A9B742F008A378C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				903A22B32A9B7435008A378C /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		903A22B52A9B7756008A378C /* TableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				903A22B62A9B777A008A378C /* MainTableViewHeaderView.swift */,
+			);
+			path = TableViewHeaderFooterView;
+			sourceTree = "<group>";
+		};
 		9074FCC72A955BC60044A2A0 = {
 			isa = PBXGroup;
 			children = (
 				9074FCD22A955BC60044A2A0 /* Destroyed by Ukraine */,
+				9074FCE82A955C620044A2A0 /* README.md */,
+				9074FCE92A955C620044A2A0 /* LICENSE */,
 				9074FCD12A955BC60044A2A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +129,7 @@
 		9074FCD22A955BC60044A2A0 /* Destroyed by Ukraine */ = {
 			isa = PBXGroup;
 			children = (
+				903A22B22A9B742F008A378C /* Helpers */,
 				9074FCFB2A9562560044A2A0 /* Extension */,
 				9074FCE72A955C440044A2A0 /* Resource */,
 				9074FCDE2A955BC60044A2A0 /* LaunchScreen.storyboard */,
@@ -86,8 +146,6 @@
 				9074FCEA2A955C620044A2A0 /* JSON */,
 				9074FCDC2A955BC60044A2A0 /* Assets.xcassets */,
 				9074FCE12A955BC60044A2A0 /* Info.plist */,
-				9074FCE92A955C620044A2A0 /* LICENSE */,
-				9074FCE82A955C620044A2A0 /* README.md */,
 				9074FCF52A955CC10044A2A0 /* Localizable.strings */,
 			);
 			path = Resource;
@@ -117,6 +175,8 @@
 		9074FCF82A95621A0044A2A0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				90BC6C102A96BEA700935B96 /* MainViewModel.swift */,
+				903A22AD2A9B717D008A378C /* CategoryCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -124,6 +184,9 @@
 		9074FCF92A9562280044A2A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				903A22B52A9B7756008A378C /* TableViewHeaderFooterView */,
+				903A22A42A9AB024008A378C /* TableViewCell */,
+				9074FCFC2A9563A50044A2A0 /* CollectionViewCell */,
 				9074FCD72A955BC60044A2A0 /* MainViewController.swift */,
 				9074FCD92A955BC60044A2A0 /* MainViewController.storyboard */,
 			);
@@ -133,6 +196,11 @@
 		9074FCFA2A95622D0044A2A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				90BC6C0E2A96BE0E00935B96 /* PersonnelModel.swift */,
+				90BC6C142A96C36300935B96 /* EquipmentCorrectionModel.swift */,
+				90BC6C162A96C38B00935B96 /* EquipmentOryxModel.swift */,
+				90BC6C182A96C3BD00935B96 /* EquipmentModel.swift */,
+				90FA40962A9B9D0100454110 /* ResponseInfoType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,8 +208,20 @@
 		9074FCFB2A9562560044A2A0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				903A22A92A9B4A3C008A378C /* Date+Extension.swift */,
+				903A22AB2A9B6522008A378C /* UIColor+Extension.swift */,
+				903A22B02A9B73E0008A378C /* String+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		9074FCFC2A9563A50044A2A0 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9074FD012A9567370044A2A0 /* PersonnelCollectionViewCell.swift */,
+				90BC6C122A96C1BB00935B96 /* PersonnelCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +285,13 @@
 				9074FCF32A955C620044A2A0 /* russia_losses_personnel.json in Resources */,
 				9074FCF12A955C620044A2A0 /* russia_losses_equipment_correction.json in Resources */,
 				9074FCE02A955BC60044A2A0 /* LaunchScreen.storyboard in Resources */,
+				903A22A82A9AB069008A378C /* CategoryTableViewCell.xib in Resources */,
 				9074FCF42A955C620044A2A0 /* russia_losses_equipment.json in Resources */,
 				9074FCF22A955C620044A2A0 /* russia_losses_equipment_oryx.json in Resources */,
 				9074FCF62A955CC10044A2A0 /* Localizable.strings in Resources */,
 				9074FCDD2A955BC60044A2A0 /* Assets.xcassets in Resources */,
 				9074FCEF2A955C620044A2A0 /* README.md in Resources */,
+				90BC6C132A96C1BB00935B96 /* PersonnelCollectionViewCell.xib in Resources */,
 				9074FCDB2A955BC60044A2A0 /* MainViewController.storyboard in Resources */,
 				9074FCF02A955C620044A2A0 /* LICENSE in Resources */,
 			);
@@ -222,9 +304,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BC6C192A96C3BD00935B96 /* EquipmentModel.swift in Sources */,
+				903A22AA2A9B4A3C008A378C /* Date+Extension.swift in Sources */,
+				90BC6C172A96C38B00935B96 /* EquipmentOryxModel.swift in Sources */,
+				903A22AC2A9B6522008A378C /* UIColor+Extension.swift in Sources */,
+				903A22B72A9B777A008A378C /* MainTableViewHeaderView.swift in Sources */,
+				903A22B12A9B73E0008A378C /* String+Extension.swift in Sources */,
 				9074FCD82A955BC60044A2A0 /* MainViewController.swift in Sources */,
+				90BC6C0F2A96BE0E00935B96 /* PersonnelModel.swift in Sources */,
+				90FA40972A9B9D0100454110 /* ResponseInfoType.swift in Sources */,
+				90BC6C152A96C36400935B96 /* EquipmentCorrectionModel.swift in Sources */,
+				903A22A62A9AB05A008A378C /* CategoryTableViewCell.swift in Sources */,
 				9074FCD42A955BC60044A2A0 /* AppDelegate.swift in Sources */,
 				9074FCD62A955BC60044A2A0 /* SceneDelegate.swift in Sources */,
+				9074FD022A9567370044A2A0 /* PersonnelCollectionViewCell.swift in Sources */,
+				903A22AE2A9B717D008A378C /* CategoryCellViewModel.swift in Sources */,
+				903A22B42A9B7435008A378C /* Helpers.swift in Sources */,
+				90BC6C112A96BEA700935B96 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,10 +469,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2PZMS5QCCL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Destroyed by Ukraine/Info.plist";
+				INFOPLIST_FILE = "Destroyed by Ukraine/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,10 +497,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2PZMS5QCCL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Destroyed by Ukraine/Info.plist";
+				INFOPLIST_FILE = "Destroyed by Ukraine/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
